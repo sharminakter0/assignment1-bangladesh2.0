@@ -311,6 +311,11 @@
   font-size: 18px;
   font-weight: 600;
   margin-top: 32px;
+  
+
+}
+.btn-new :hover{
+  background: palevioletred;
 
 }
 /*donate styles*/
@@ -388,12 +393,15 @@ flex: none;
    background: rgb(198, 228, 214);
   }
 
-  
+  .subs-input ::placeholder{
+    padding-left: 10px;
+    text-transform: uppercase;
+    text-decoration: underline;}
    
-  .subs-input{
+  .subs-input {
     position: relative;
-    width: 450px;
-  height: 32px;
+    width: 450p;
+    height: 32px;
   border-radius: 8px 0px 0px 8px;
   
   background: rgb(255, 255, 255);
@@ -402,7 +410,7 @@ flex: none;
     
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content:flex-end;
   margin: 28px 120px;
   } 
   .btn-sub{
@@ -438,12 +446,21 @@ text-align: center;
 
 .footer-hr{
   border: 1px solid rgba(14, 14, 14, 0.1);
-  width: 1122px;
-  position: static;
-  paint-order: 1;
-  margin: 32px ;
-  flex: none;
-  justify-content: center;
-}
 
+}
+footer{
+  text-align: center;
+}
+.quto{
+  background-image: url('../assets/quote-bg.png');
+  background-repeat: no-repeat;
+  
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  padding: 48px 24px 48px 24px;
+  
+   /* background: rgb(255, 255, 255);   */
+  
+  }
 
