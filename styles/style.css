@@ -108,7 +108,26 @@
         font-style: italic;
       }
       
-
+      .btn-singin {
+        width: 90px;
+    height: 42px;
+        border: 1px solid rgb(0, 106, 80);
+        color:  rgb(0, 106, 80);
+        
+     border-radius: 8px; 
+    background: transparent;
+    }
+    body {
+        background-color:rgb(245, 245, 245);;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        margin: 10px 10px;
+        
+    }
 /*banner styles*/
 .banner{
     display: flex;
@@ -122,15 +141,8 @@
     border-radius: 24px;
     background-color: rgb(198, 228, 214);
     margin: 80px 100px 80px 100px;
-    padding: 80px 0px;
-
-
-
+    padding:80px 0px;
 }
-
-
-
-
 .banner-greeting{
     font-size: 24px;
     font-weight: 700;
@@ -165,8 +177,7 @@
 }
 /*card styles*/
 .card-container{
-  width:1280px ;
-  height: 765px;
+  
   justify-content: flex-start;
   margin: 80px 100px 80px 100px;
   padding: 80px 0px;
@@ -303,6 +314,9 @@
 
 }
 /*donate styles*/
+.donate-btn{
+  text-align: center;
+}
 
 .donate-section{
   margin: 60px 190px;
@@ -388,12 +402,12 @@ flex: none;
     
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding:18px 40px 18px 40px;
-  margin: 8px 0px 8px 0px;
+  justify-content:center;
+  margin: 28px 120px;
   } 
   .btn-sub{
   margin-bottom: 10px;
+  position: absolute;
   
   }
   .nl-title{
